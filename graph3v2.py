@@ -1,6 +1,5 @@
 from typing import TypedDict, List
 from langgraph.graph import StateGraph
-from IPython.display import display, Image
 
 class AgentState(TypedDict):
     name: str
