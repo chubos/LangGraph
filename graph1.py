@@ -19,7 +19,7 @@ graph.set_finish_point("greeter")
 app = graph.compile()
 
 png = app.get_graph().draw_mermaid_png() 
-with open("graph.png", "wb") as f:
+with open("graph1.png", "wb") as f:
     f.write(png)
 
 result = app.invoke({"message": "Charlie"})
